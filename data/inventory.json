@@ -1,0 +1,47 @@
+[
+  {
+    "id": "linux-prod-01",
+    "type": "linux",
+    "source": "zabbix",
+    "owner": "platform",
+    "criticality": "high",
+    "current_coverage": true,
+    "target_coverage": true
+  },
+  {
+    "id": "k8s-orders",
+    "type": "kubernetes",
+    "source": "prometheus",
+    "owner": "apps",
+    "criticality": "high",
+    "current_coverage": true,
+    "target_coverage": false
+  },
+  {
+    "id": "fw-edge-01",
+    "type": "network",
+    "source": "snmp",
+    "owner": "network",
+    "criticality": "high",
+    "current_coverage": true,
+    "target_coverage": false
+  },
+  {
+    "id": "db-reporting",
+    "type": "database",
+    "source": "appdynamics",
+    "owner": "database",
+    "criticality": "medium",
+    "current_coverage": true,
+    "target_coverage": true
+  },
+  {
+    "id": "legacy-aix-01",
+    "type": "unix",
+    "source": "splunk",
+    "owner": "unix",
+    "criticality": "medium",
+    "current_coverage": true,
+    "target_coverage": false
+  }
+]
